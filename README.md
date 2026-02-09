@@ -1,32 +1,56 @@
-Interpretable Machine Learning for Customer Churn Prediction using SHAP Values
+# Interpretable Machine Learning for Customer Churn Prediction using SHAP
 
-This project builds, evaluates, and interprets an ensemble machine learning model for binary customer churn prediction.
-The focus is not only on achieving strong predictive performance but also on providing clear, data-driven explanations using SHAP (SHapley Additive exPlanations).
+This project develops a **high-performance and explainable machine learning model** to predict **customer churn** and understand **why customers are likely to leave**.
 
-This ensures model transparency, supports business decision-making, and aligns with real-world needs for explainable AI systems in customer retention strategies.
+---
 
-📌 Project Overview
+## Project Objective
 
-The goal of this project is to develop an interpretable churn prediction model using XGBoost or LightGBM.
+To build an **interpretable churn prediction system** that:
 
-The workflow includes:
+- Accurately predicts whether a customer will churn  
+- Identifies key factors driving churn  
+- Explains individual predictions  
+- Supports data-driven retention strategies  
 
-Preprocessing of a customer churn dataset
+---
 
-Handling categorical variables (encoding techniques)
+## Project Workflow
 
-Addressing class imbalance using resampling
+### Data Preprocessing
+- Handling missing values  
+- Encoding categorical variables  
+- Feature scaling  
 
-Training and tuning an ensemble model
+### Class Imbalance Handling
+- SMOTE oversampling  
 
-Evaluating performance (AUC, Precision, Recall, F1)
+### Model Development
+- **XGBoost Classifier**  
+- **LightGBM**
 
-Extracting model-native feature importance
+### Model Evaluation
+- AUC  
+- Precision  
+- Recall  
+- F1-score  
 
-Generating SHAP global explanations
+### Model Explainability
+- SHAP Global Explanations  
+- SHAP Local Explanations  
 
-Producing SHAP local explanations for selected customers
+---
 
-Creating an executive summary with business insights
+## Technologies Used
 
-The notebook produces all required plots and metrics needed for model interpretation and reporting.
+- Python  
+- Scikit-learn  
+- XGBoost  
+- LightGBM  
+- SHAP  
+
+---
+
+## Author
+
+**Bala Murugan**
